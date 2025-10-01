@@ -8,7 +8,7 @@ const Navbar = () => {
         <Link href="/">Bitlinks</Link>
       </div>
       <ul className="flex items-center justify-center gap-4">
-        <Link href="/">
+        <Link className="md:block hidden" href="/">
           <li className="relative group cursor-pointer text-white transition-all duration-300 transform hover:scale-110">
             Home
             {/* Underline Animation */}
@@ -16,21 +16,21 @@ const Navbar = () => {
           </li>
         </Link>
 
-        <Link href="/about">
+        <Link className="md:block hidden" href="/about">
           <li className="relative group cursor-pointer text-white hover:text-gray-200 transition-all duration-300 transform hover:scale-110">
             About
             <span className="absolute left-0 -bottom-1 w-0 h-[3px] bg-white transition-all duration-300 group-hover:w-full rounded-2xl"></span>
           </li>
         </Link>
 
-        <Link href="/shorten">
+        <Link className="md:block hidden" href="/shorten">
           <li className="relative group cursor-pointer text-white hover:text-gray-200 transition-all duration-300 transform hover:scale-110">
             Shorten
             <span className="absolute left-0 -bottom-1 w-0 h-[3px] bg-white transition-all duration-300 group-hover:w-full rounded-2xl"></span>
           </li>
         </Link>
 
-        <Link href="/contact">
+        <Link className="md:block hidden" href="/contact">
           <li className="relative group cursor-pointer text-white hover:text-gray-200 transition-all duration-300 transform hover:scale-110">
             Contact Us
             <span className="absolute left-0 -bottom-1 w-0 h-[3px] bg-white transition-all duration-300 group-hover:w-full rounded-2xl"></span>

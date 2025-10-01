@@ -11,12 +11,12 @@ const poppins = localFont({
 export default function Home() {
   return (
     <main>
-      <section className="grid grid-cols-2 h-[50vh] bg-purple-100">
+      <section className="grid md:grid-cols-2 grid-cols-1 h-[90vh] md:pt-0 pt-5">
         <div className=" flex flex-col gap-4 items-center justify-center">
-          <p className={`font-bold text-4xl ${poppins.className}`}>
+          <p className={`font-bold text-4xl text-center xl:text-[40px] ${poppins.className}`}>
             The best URL Shortener in the Market
           </p>
-          <p className="px-30 text-center text-[17px]">
+          <p className="lg:px-30 px-12 text-center xl:text-[17px] text-[15px]">
             We are the most straightforward URL shortener in the world, designed
             to make your life easier by simplifying the way you share links. No
             unnecessary features, no clutter, and no complicated steps-just a
